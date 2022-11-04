@@ -2,7 +2,9 @@
 
 <!-- BEGIN INDEX -->
 <div class = "upper-textbox">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Amazing Computing was a computer magazine devoted to the Amiga computer. It was published by PiM Publications of Fall River, Massachusetts, USA, from 1985 to (sporadically) 1999.  A frequent column in Amazing Computing was "Roomers" by "the Bandito" which offered unsourced rumors, speculation, and inside information regarding developments on the AMIGA scene. These often involved internal problems at Commodore Business Machines, the makers of the AMIGA, and the alleged mismanagement of the company by its executives.
+<br/>
+The identity of "the Bandito" was never revealed although the publishers did hint that the writer had actually been several different people over the years. The column was discontinued after the demise of Commodore.
                     </div>
                     <div class = "spotlight-issue-section">
                         <div class = "spotlight-issue row flex-lg-row-reverse align-items-center g-5 py-5">
