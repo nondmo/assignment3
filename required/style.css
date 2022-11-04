@@ -1,0 +1,283 @@
+/* GRID SYSTEM */
+@media screen and (orientation: landscape) {
+
+.amazingcomputing-grid {
+   display: grid; 
+
+   grid-template-rows: 250px auto 750px 10px 200px;
+   grid-template-columns: 150px 3fr 150px; 
+   
+   gap: 0px;
+   height: 100%;
+
+}
+  
+#header {
+
+   background-color: #FAEDCD; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+   
+}
+#navbar {
+
+   background-color: #CCD5AE; 
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+}
+#maincontent {
+
+   background-color: #E9EDC9; 
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 4;
+   
+}
+#footer {
+
+   background-color: #FEFAE0; 
+   grid-row-start: 5;
+   grid-column-start: 1;
+
+   grid-row-end: 6;
+   grid-column-end: 4;
+   
+}
+#footerdivider {
+
+   background-color: #D4A373; 
+   grid-row-start: 4;
+   grid-column-start: 1;
+
+   grid-row-end: 5;
+   grid-column-end: 4;
+   
+}
+/* END GRID SYSTEM */
+/* PAGE STYLES */
+body {
+    background-color: rgb(157, 224, 224);
+    max-width: 100%
+}
+
+#header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar {
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-textbox {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 35px;
+}
+
+.nav-link {
+    max-width: 100%;
+    color:black;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    background-color: black;
+    border-radius: 3px;
+    
+}
+.spotlight-issue-section {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 35px;
+    width: auto;
+    padding-left: 1%;
+}
+#spotlight-cover img {
+    max-width: 250px;
+}
+#spotlight-readmore {
+    background-color: #545E31;
+    border-color: #545E31;
+}
+#footer {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    line-height: 18px;
+}
+#footer a {
+    color: black;
+    text-decoration: underline;
+}
+}
+
+/* MOBILE STYLING */
+@media only screen and (max-width: 850px) and (orientation: portrait) {
+    /* GRID SYSTEM */
+    .amazingcomputing-grid {
+        display: grid; 
+     
+        grid-template-rows: 10% auto 75% 10px 15%;
+        grid-template-columns: 10% 80% 10%;
+        
+        gap: 0px;
+        height: 100%;
+     
+     }
+
+     #header {
+
+        background-color: #FAEDCD; 
+        grid-row-start: 1;
+        grid-column-start: 1;
+     
+        grid-row-end: 2;
+        grid-column-end: 4;
+        
+     }
+     #navbar {
+     
+        background-color: #CCD5AE; 
+        grid-row-start: 2;
+        grid-column-start: 1;
+     
+        grid-row-end: 3;
+        grid-column-end: 4;
+        
+     }
+     #maincontent {
+     
+        background-color: #E9EDC9; 
+        grid-row-start: 3;
+        grid-column-start: 1;
+     
+        grid-row-end: 4;
+        grid-column-end: 4;
+        
+     }
+     #footer {
+     
+        background-color: #FEFAE0; 
+        grid-row-start: 5;
+        grid-column-start: 1;
+     
+        grid-row-end: 6;
+        grid-column-end: 4;
+        
+     }
+     #footerdivider {
+     
+        background-color: #D4A373; 
+        grid-row-start: 4;
+        grid-column-start: 1;
+     
+        grid-row-end: 5;
+        grid-column-end: 4;
+        
+        
+     }
+    /* END GRID SYSTEM */
+    /* MOBILE STYLES */
+    #header {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 15px;
+        text-align: center;
+    }
+    #navbar {
+        font-family:'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .upper-textbox {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 15px;
+    }
+    .nav-link {
+        max-width: 100%;
+        color:black;
+    }
+    
+    .nav-link:hover {
+        color: white;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: white;
+        background-color: black;
+        border-radius: 3px;
+    }
+    .spotlight-issue-section {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 15px;
+    }
+    #spotlight-cover img {
+        max-width: 85%;
+        align-content: center;
+    }
+    #spotlight-readmore {
+        background-color: #545E31;
+        border-color: #545E31;
+    }
+    #footer {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 16px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        line-height: 18px;
+    }
+    #footer a {
+        color: black;
+        text-decoration: underline;
+    }
+    }
+    /* END MOBILE STYLING */
