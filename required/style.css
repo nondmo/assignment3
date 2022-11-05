@@ -142,6 +142,34 @@ body {
     color: black;
     text-decoration: underline;
 }
+.lower-textbox {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: left;
+    justify-content: left;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 35px;
+    border-width: 3px;
+    border-color: #545E31;
+    border-style: solid;
+    border-radius: 15px;
+}
+.lower-textbox h3, p {
+    padding: 10px;
+}
+.lower-textbox a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.lower-textbox a:hover {
+    text-decoration-line: underline;
+    color: black;
+}
 }
 
 /* MOBILE STYLING */
