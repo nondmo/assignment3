@@ -1,0 +1,346 @@
+/* grid setup */
+    .amazingcomputing-grid {
+       display: grid; 
+    
+       grid-template-rows: 250px 40px auto 10px 200px;
+       grid-template-columns: 150px 3fr 150px; 
+       
+       gap: 0px;
+       height: 100%;
+    
+    }
+    /* end grid setup */
+
+    /* header styles */
+    header {
+        
+        grid-row-start: 1;
+        grid-column-start: 1;
+
+        grid-row-end: 2;
+        grid-column-end: 4;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header > h1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+        font-family: "Monaco", "Courier New", monospace;
+        font-weight: bolder;
+    }
+
+    /* navigation styles */
+    .navigation {
+    
+       background-color: #cccccc; 
+       grid-row-start: 2;
+       grid-column-start: 1;
+    
+       grid-row-end: 3;
+       grid-column-end: 4;
+
+       display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding-top: 8px;
+    }
+
+    ul.navigation {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    ul.navigation > li {
+        display: flex;
+        width: 20%;
+        float: left;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    ul.navigation > li > a {
+        text-align: center;
+        margin: 30px;
+    } 
+    
+    ul.navigation > li > a:hover {
+        color: #FFFFFF;
+        background-color: #FF2600;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        text-decoration: none;
+    } 
+    
+    li > a {
+        text-decoration: none;
+        color: #C61F00;
+    }
+       
+    #maincontent {
+    
+       background-color: #ffffff; 
+       grid-row-start: 3;
+       grid-column-start: 1;
+    
+       grid-row-end: 4;
+       grid-column-end: 4;
+
+       margin-left: 15%;
+       margin-right: 15%;
+       
+    }
+
+    #maincontent h2 {
+        font-family: "Monaco", "Courier New", monospace;
+        font-weight: bold;
+    }
+
+    #footer {
+    
+       background-color: #cccccc; 
+       grid-row-start: 5;
+       grid-column-start: 1;
+    
+       grid-row-end: 6;
+       grid-column-end: 4;
+
+       font-family:'Courier New', Courier, monospace;
+        font-size: 14px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        line-height: 16px;
+       
+    }
+    #footerdivider {
+    
+       background-color: #444444; 
+       grid-row-start: 4;
+       grid-column-start: 1;
+    
+       grid-row-end: 5;
+       grid-column-end: 4;
+       
+    }
+    /* END GRID SYSTEM */
+
+/* define basic styles for site elements */
+
+body {
+    background-color: white;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header > h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    padding-bottom: 250px;
+}
+
+h1 {
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+h2 {
+    font-family: "Monaco", "Courier New", monospace;
+    color: #002A67;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: "Gill Sans", Arial, sans-serif; 
+    color: #002A67;
+}
+
+p {
+    font-family: "Gill Sans", Arial, sans-serif;
+}
+
+p > a {
+    color: #002A67;
+}
+
+p > a:hover {
+   color: #0142A3; 
+}
+
+li {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+/* navigation styles - directly under header */
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+ul.navigation > li {
+    display: inline;
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+ul.navigation > li > a {
+    text-align: center;
+    margin: 30px;
+} 
+
+ul.navigation > li > a:hover {
+    color: #FFFFFF;
+    background-color: #FF2600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+} 
+
+li > a {
+    text-decoration: none;
+    color: #C61F00;
+}
+
+#intro {
+    padding-bottom: 10px;
+}
+
+#intro::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* body styles - text, image, and buttons */
+
+p {
+    font-size: 1.2em;
+}
+
+#intro > img {
+    width: 20%;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+#buttonL {
+    width: 49%;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9E9E9E;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+#buttonR {
+    width: 49%;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9E9E9E;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+
+#buttonL > h3 > a {
+    text-decoration: none;
+    color: #002A67;
+    padding: 60px;
+}
+
+#buttonR > h3 > a {
+    text-decoration: none;
+    color: #002A67;
+    padding: 60px;
+}
+
+#buttonL > h3 > a:hover {
+    color: #0142A3;
+}
+
+#buttonR > h3 > a:hover {
+    color: #0142A3;
+}
+
+p > a {
+    color: #002A67;
+}
+
+p > a:hover {
+   color: #0142A3; 
+}
+
+/* mobile styles */
+@media only screen and (max-width: 600px) {
+    #buttonL {
+        width: 100%
+    }
+    #buttonR {
+        width: 100%
+    }
+    ul.navigation {
+        width: 100%;
+    }
+
+    ul.navigation > li {
+        display: block;
+        width: 100%;
+    }
+    ul.navigation > li > a:hover {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
+    }
+    #intro > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        height: auto;
+        float: none;
+        padding-right: 0px;
+        border-radius: 30px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+}
+
+/* condition for larger margins on wider screens */
+
+@media only screen and (min-width: 1000px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }   
+}
