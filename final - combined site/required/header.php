@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Amazing Computing Magazine Archive - Index</title>
         <link rel="stylesheet" href="required/style.css">
-        <script src="required/code.js"></script> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+        <script src="required/code.js"></script> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
     <body>
         <div class="amazingcomputing-grid">
         <header>
-            <h1>The Amazing Computing Archive</h1>
+            <h1>The <em>Amazing Computing Magazine</em> Archive</h1>
         </header>
         <div class="navigation">
         <nav>

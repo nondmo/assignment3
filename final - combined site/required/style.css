@@ -250,6 +250,23 @@ p {
     border-radius: 10px;
 }
 
+.spotlight-issue-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin-left: 25%;
+    margin-top: 35px;
+    padding-left: 1%;
+}
+#spotlight-cover img {
+    max-width: 35%;
+}
+#spotlight-readmore {
+    background-color: #545E31;
+    border-color: #545E31;
+}
+
 #buttonL {
     width: 49%;
     float: left;
@@ -298,6 +315,7 @@ p > a {
 p > a:hover {
    color: #0142A3; 
 }
+
 
 /* mobile styles */
 @media only screen and (max-width: 600px) {
