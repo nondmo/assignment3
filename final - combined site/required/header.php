@@ -22,6 +22,7 @@
                 <li><a href="http://www.youngmonkey.ca/nose/magazines/AmazingComputing.html">Archive</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="resources.php">Resources</a></li>
+                <li><a href="browsableindex.html">Browsable Index</a></li>
             </ul>
         </nav>
 </div>
